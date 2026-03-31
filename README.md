@@ -1,6 +1,6 @@
 # jenkins-sonarqube-nexus-tomcat
 
-# TOMCAT SETUP
+## TOMCAT SETUP
 
 ## 🔹 Installation
 - Tomcat was installed on the dedicated EC2 instance (`tomcat`).
@@ -28,7 +28,7 @@
 - Stored the token securely in Jenkins credentials 
 ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/92355ee317e75df2b36a106ea9e9837fd111c2e0/Screenshot%202026-03-31%20111315.png)
 ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/3de8ed5d0ab5f4c36a45b89cdd9732d93c64790f/Screenshot%202026-03-31%20111633.png)
-# NEXUS SETUP
+## NEXUS SETUP
 
 ## 🔹 Installation
 - Nexus Repository Manager was installed and started on the dedicated EC2 instance (`nexus`).
@@ -45,7 +45,7 @@
 - Confirmed repositories are available for publishing artifacts from Jenkins.
 ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/7b2495c7cd782e2a11caf48aa6a232be3a718046/Screenshot%202026-03-31%20111948.png)
 
-# JENKINS SETUP
+## JENKINS SETUP
 
 ## 🔹 Installation
 - Jenkins was installed and started on the dedicated EC2 instance (`jenkins`).
@@ -72,7 +72,7 @@
 - Tomcat SSH key: Enables Jenkins to securely connect and deploy applications to the Tomcat server.  
 - SonarQube token: Allows Jenkins to authenticate with SonarQube for static code analysis.
 ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/b5a6c376c763189f283201862711b5119e125e88/Screenshot%202026-03-31%20112241.png)
-# SONARQUBE INTEGRATION WITH JENKINS
+## SONARQUBE INTEGRATION WITH JENKINS
 
 ## 🔹 Configuration in Jenkins
 - Navigate to: **Manage Jenkins → System → SonarQube Servers**
@@ -92,7 +92,7 @@ For `mvn sonar:sonar` to work in the pipeline, you need a proper Maven settings 
 </settings>
 
 
-# NEXUS INTEGRATION WITH JENKINS
+## NEXUS INTEGRATION WITH JENKINS
 
 ## 🔹 Purpose
 - Upload build artifacts (.war, .jar) to Nexus repository for versioned storage.
@@ -106,7 +106,7 @@ For `mvn sonar:sonar` to work in the pipeline, you need a proper Maven settings 
 
 ---
 
-# TOMCAT INTEGRATION WITH JENKINS
+## TOMCAT INTEGRATION WITH JENKINS
 
 ## 🔹 Purpose
 - Securely copy `.war` files from Jenkins workspace to the Tomcat server for deployment.

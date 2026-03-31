@@ -27,7 +27,7 @@
 - Generated a token/secret for Jenkins integration  
 - Stored the token securely in Jenkins credentials 
 ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/92355ee317e75df2b36a106ea9e9837fd111c2e0/Screenshot%202026-03-31%20111315.png)
-
+![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/3de8ed5d0ab5f4c36a45b89cdd9732d93c64790f/Screenshot%202026-03-31%20111633.png)
 # NEXUS SETUP
 
 ## 🔹 Installation

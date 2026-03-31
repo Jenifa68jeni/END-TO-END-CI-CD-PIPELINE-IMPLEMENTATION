@@ -1,0 +1,16 @@
+
+
+**Operating System:** Amazon Linux AMI  
+
+| Service   | EC2 Instance | Purpose                  | Default Port |
+|-----------|--------------|--------------------------|--------------|
+| Jenkins   | jenkins      | CI/CD pipeline execution | 8080         |
+| SonarQube | sonar        | Code quality analysis    | 9000         |
+| Nexus     | nexus        | Artifact repository      | 8081         |
+| Tomcat    | tomcat       | Application deployment   | 8080         |
+
+
+- **22 (SSH):** Restrict to your IP only  
+- **8080:** Jenkins / Tomcat  
+- **9000:** SonarQube  
+- **8081:** Nexus

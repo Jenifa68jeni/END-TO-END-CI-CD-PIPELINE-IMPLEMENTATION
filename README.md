@@ -10,3 +10,13 @@
 - Tomcat UI was successfully accessed at:http://184.72.215.120:8080/
 
 ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/7d40438ff38292749dbd2ffe6a7aa7ba9fcf235e/tomcat%20access.png)
+# SONARQUBE SETUP
+
+## 🔹 Installation
+- SonarQube was installed and started on the dedicated EC2 instance (`sonar`).
+- The service was launched using the provided binaries and startup script.
+
+## 🔹 Access URL
+- SonarQube UI accessible at:  http://44.220.157.36:9000/
+  
+

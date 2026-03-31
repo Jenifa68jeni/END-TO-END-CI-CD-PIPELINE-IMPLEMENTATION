@@ -1,0 +1,9 @@
+
+Implement a complete CI/CD workflow for a Maven-based Java web application to:
+
+- Automatically pull source code from GitHub  
+- Build and package the project using Maven  
+- Perform static code analysis with SonarQube  
+- Store the generated `.war` artifact in Nexus Repository Manager  
+- Deploy the application seamlessly to Apache Tomcat  
+- Verify successful deployment by accessing the application in a browser

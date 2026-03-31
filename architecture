@@ -13,3 +13,4 @@ COMPONENTS
 - **Nexus Repository Manager**: Stores and versions the build artifacts (.war)  
 - **Apache Tomcat**: Hosts and runs the deployed web application  
 - **Browser**: Used to validate successful deployment by accessing the application
+

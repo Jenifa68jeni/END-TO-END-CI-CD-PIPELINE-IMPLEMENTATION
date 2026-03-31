@@ -20,9 +20,20 @@
 - SonarQube UI accessible at:  http://44.220.157.36:9000/
   ![image alt](https://github.com/Jenifa68jeni/jenkins-sonarqube-nexus-tomcat/blob/e32b486cc91d896d45177a70720e55f99ca67e4e/Screenshot%202026-03-31%20105606.png)
 
-##Configuration Steps:
-•	Logged into the SonarQube UI
-•	Created project: maven-web-app
+
+## 🔹 Configuration Steps
+- Logged into the SonarQube UI  
+- Created project: **maven-web-app**  
+- Generated a token/secret for Jenkins integration  
+- Stored the token securely in Jenkins credentials (`Id: sonar`)
+
+
+## 📸 SonarQube Screenshot
+
+![SonarQube Dashboard](images/sonarqube-dashboard.png)
+
+*Figure: SonarQube running on AWS EC2, integrated with Jenkins for static code analysis*
+
 
 
 ## 🔹 Installation
